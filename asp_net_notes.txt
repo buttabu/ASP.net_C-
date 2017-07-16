@@ -1,0 +1,34 @@
+.NET Framework
+Windows desktop apps
+Windows store apps
+Windows phone apps
+ASP.NET website and web apps
+
+ASP.NET => server side scripting engine with an interpreted language
+CLR => Common Language Runtime, The features all .net applications share
+
+ASP.NET => C#, VB, F#
+ASP.NET Strenghts => database managment, package/library managment
+		=> template/library diversity
+
+To include jQuery => we can use NuGet Package Manager
+
+Creating Dynamic web pages using razors: using HTML and embedded C# code
+
+	Razor => is a view engine that provide us with a powerful way to blend C# and markup
+
+@ sign tells it is a C# code
+to check the server name => @Server.MachineName!
+
+using for loop in the html
+
+@{ // can declare variables in C#, you can also used HTM in it
+	var fruits = new List <string> {"apples", "oranges", "Bananas"}
+	<p>Favorite fruits:</p>
+	<ul>
+	@foreach(string f in fruits){
+		<li>@f</li>
+	}
+	</ul>
+}
+
