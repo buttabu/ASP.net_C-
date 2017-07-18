@@ -22,7 +22,7 @@ to check the server name => @Server.MachineName!
 
 using for loop in the html
 
-@{ // can declare variables in C#, you can also used HTM in it
+@{ // can declare variables in C#, you can also used HTML in it
 	var fruits = new List <string> {"apples", "oranges", "Bananas"}
 	<p>Favorite fruits:</p>
 	<ul>
@@ -31,4 +31,23 @@ using for loop in the html
 	}
 	</ul>
 }
+
+Understanding the MVC pattern:
+		seperate application into 3 main data
+		which are data, UI and request processing
+
+		MV soups:
+			MVC:model-view-controller
+			MVP:model-view-presenter
+			MVVM:model-view-viewmodel
+			MV*: any/all of the above
+			MVW = variant on MV*,W = "whatever works for you"
+
+		Seperation of concerns:
+			Models: classes that deal with data
+			Views:UI components
+			Controllers:classes that handle user interaction with appropiate model
+
+	ASP.NET MVC => Cretaing controllers and Views
+
 
